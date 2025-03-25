@@ -8,6 +8,12 @@ This project enables sentiment analysis using custom-generated vocabularies and 
 - **Model Training**: A simple model is built using **PyTorch** for sentiment classification based on the embeddings.
 - **User Input for Predictions**: After training, the user can input their own review, and the model will predict whether it's positive or negative.
 
+### IMDb Dataset
+
+The **IMDb Large Movie Review Dataset v1.0** is used for sentiment analysis in this project. It contains 50,000 movie reviews, evenly split into 25,000 training and 25,000 testing sets. The reviews are labeled as positive or negative, with negative reviews having ratings from 1-4 and positive reviews having ratings from 7-10.
+
+The dataset is available at: [IMDb Large Movie Review Dataset](https://ai.stanford.edu/~amaas/data/sentiment/)
+
 ## Project Workflow
 
 1. **Data Collection**:
@@ -29,4 +35,6 @@ This project enables sentiment analysis using custom-generated vocabularies and 
 
 ## To install the required libraries, run:
 
+```
 pip install torch scikit-learn numpy beautifulsoup4 requests
+```
